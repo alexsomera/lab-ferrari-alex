@@ -1,4 +1,4 @@
-import "./firebase",
+import "./firebase";
 import "./main";
 import "./auth";
 import "./calendar";
