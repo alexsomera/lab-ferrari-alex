@@ -48,10 +48,10 @@ if (page) {
     creditCard.classList.toggle("flipped");
   });
   inputCvv.addEventListener("focus", (e) => {
-    creditCard.classList.toggle("flipped");
+    creditCard.classList.add("flipped");
   });
   inputCvv.addEventListener("blur", (e) => {
-    creditCard.classList.toggle("flipped");
+    creditCard.classList.remove("flipped");
   });
 
   IMask(number, {
